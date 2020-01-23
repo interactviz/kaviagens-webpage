@@ -124,7 +124,7 @@ html {
   .navbar {
     width: 100%;
     display: flex;
-    border: 1px solid red;
+
     flex-flow: row wrap;
   }
 
@@ -137,7 +137,8 @@ html {
   .bottom-navbar {
     bottom: 0;
     display: flex;
-    background-color: orange;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   }
 
   .bottom-navbar ul {
@@ -145,9 +146,9 @@ html {
   }
 
   .bottom-navbar a {
-    color: #FFFFFF;
+    color: #333;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     
   }
 
@@ -178,59 +179,6 @@ html {
   }
 
   
-  
-/*
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  padding: 0px 128px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  height: 64px;
-
-  border: 1px solid blue;
-}
-*/
-
-
-/*
-
-main {
-    width: 100%;
-    height: auto;
-    background-color: violet;
-  }
-
-
-section {
-  padding-top: 72px;
-  height: 100vh;
-}
-
-
-img {
-  vertical-align: middle;
-}
-
-h1 {
-  margin: 0;
-}
-
-.navbar li {
-
-  text-align: center;
-  padding: 8px;
-  
-}
-
-.logo {
-  padding: 18px 0px;
-  height: 100%;
-}
-*/
 
 @media all and (min-width: 44em){
 
@@ -241,13 +189,27 @@ h1 {
   }
 
   .top-navbar {
-    padding: 12px 64px;
+    padding: 8px 64px;
     display: flex;
+    flex-flow: column;
     background-color: #FFFFFF;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   }
 
   .top-navbar ul {
     justify-content: center;
+  }
+
+  .top-navbar li {
+    padding: 12px;
+    margin-right: 48px;
+  }
+
+  .top-navbar a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: lighter;
   }
 
 
@@ -263,58 +225,27 @@ h1 {
 
   .nav-links {
     width: 100%;
-    padding: 8px;
+    padding: 12px;
     display: flex;
     justify-content: center;
+  }
+
+  .nav-links a:hover {
+    color: #DB6134;
+    font-weight: 500;
   }
 
 
   .logo {
     padding: 2px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    margin: 16px 0 8px;
   }
 
-
-
-
-  /*
-
-  nav {
-    padding: 12px;
-    
+  .logo img {
+    height: 64px;
   }
-
-  main {
-    padding: 64px;
-  }
-
-
-  section {
-    
-  }
-
-  .navbar {
-    display: flex;
-  }
-
-  .navbar li {
-    border-bottom: 4px solid white;
-    margin-left: 32px;
-
-  }
-
-  .navbar li:hover {
-    border-bottom: 4px solid orange;
-  }
-
-  .nav-links {
-    display: flex;
-    justify-content: flex-end;
-    
-  }
-
-*/
 
 
 
@@ -342,28 +273,56 @@ h1 {
    ========================================================================== */
 
 .orange {
-  background-color: orange;
+  background-color:#DB6134;
 }
 
 .yellow {
-  background-color: #F4A912;
+  background-color: #F3AA32;
 }
 
 .purple {
-  background-color: #5E1F86;
+  background-color: #562D7A;
   color: #FFFFFF;
 }
 
 .red {
-  background-color: #D12C42;
+  background-color: #D53644;
   color: #FFFFFF;
 }
 
 .green {
-  background-color: #21A19E;
+  background-color: #17A2A0;
   color: #FFFFFF;
 }
 
+.purple-lighter {
+  background-color: #66378A;
+}
+
+.yellow-lighter {
+  background-color: #F5E227;
+}
+
+.green-lighter {
+  background-color: #54C6D8;
+}
+
+.red-dark {
+  background-color: #981A1D;
+}
+
+
+
+.active-top {
+  color:#DB6134;
+  border-bottom: 4px solid #DB6134;
+  font-weight: 300;
+}
+
+.active-top a {
+  color: #DB6134;
+  font-weight: 500;
+}
 
 /*
  * Hide visually and from screen readers
