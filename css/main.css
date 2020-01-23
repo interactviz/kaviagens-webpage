@@ -149,10 +149,15 @@ html {
     justify-content: center;
   }
 
+  .bottom-navbar li {
+    padding: 16px 16px 8px;
+  }
+
   .bottom-navbar a {
-    color: #333;
+    color: #000000;
     text-decoration: none;
     letter-spacing: 3px;
+    font-weight: 300;
     
   }
 
