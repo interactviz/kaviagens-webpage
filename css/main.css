@@ -107,11 +107,24 @@ textarea {
   
 html {
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #FCFCFC;
 }
 
   html, body { height: 100%; }
+
+  h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Satisfy', cursive;
+    padding-top: 16px;
+  }
+
+  p {
+    margin: 16px auto;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+  }
 
 
   nav {
@@ -190,20 +203,18 @@ html {
   header {
     width: 100%;
     background-color: #FFFFFF;
-    padding: 8px 64px;
+    padding: 8x 64px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   }
 
   .container {
-    border: 1px solid red;
-    /*padding: 32px 64px;*/
     width: 100%;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    margin-top: 8px;
     height: auto;
   }
 
@@ -215,8 +226,9 @@ html {
   }
 
   section {
-    height: 100vh;
-    padding: 8px 32px;
+    height: auto;
+    /*padding: 16px 32px;*/
+    border: 0;
   }
 
   img {
@@ -224,10 +236,22 @@ html {
     height: auto;
   }
 
+  article {
+    padding: 0px 36px 36px;
+  }
+
+
+  .profile-img {
+    width: 95vw;
+    margin-bottom: 32px;
+  }
+
+
+ 
+
 @media all and (min-width: 44em){
 
   .container {
-    border: 1px solid red;
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -292,6 +316,7 @@ html {
   .nav-links a:hover {
     color: #DB6134;
     font-weight: 500;
+    cursor: pointer;
   }
 
 
