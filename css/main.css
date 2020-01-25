@@ -124,8 +124,8 @@ html {
   .navbar {
     width: 100%;
     display: flex;
-
     flex-flow: row wrap;
+    justify-content: center;
   }
 
   ul li:last-child  a {
@@ -139,7 +139,7 @@ html {
     display: flex;
     background-color: white;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    border-top: 1px solid #E7E7E7;
+
     padding: 0px 0px 4px;
     justify-content: center;
     flex-flow: row wrap;
@@ -150,16 +150,15 @@ html {
   }
 
   .bottom-navbar li {
-    padding: 8px 4px 8px;
+    padding: 8px 4px 12px;
   }
 
   .bottom-navbar a {
     color: #000000;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: 100;
     font-size: smaller;
-    
   }
 
   .bottom-navbar a:hover {
