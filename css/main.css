@@ -202,7 +202,7 @@ html {
     /*padding: 32px 64px;*/
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     margin-top: 8px;
     height: auto;
@@ -220,13 +220,18 @@ html {
     padding: 8px 32px;
   }
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
 @media all and (min-width: 44em){
 
   .container {
     border: 1px solid red;
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     margin-top: 148px;
   }
