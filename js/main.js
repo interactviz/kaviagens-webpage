@@ -9,3 +9,4 @@ $(".bottom-navbar li").on("click", function(){
     $(".bottom-navbar li").removeClass("active-bottom");
     $(this).addClass("active-bottom");
 });
+
