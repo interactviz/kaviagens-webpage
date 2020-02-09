@@ -326,10 +326,11 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   #home article {
+    padding: 32px 48px;
     flex: 50%;
   }
 
@@ -404,10 +405,58 @@ html {
   }
 
   .item-servico {
-    width: 280px;
-    height: 150px;
+    width: 250px;
+    height: 180px;
+    padding: 16px; 
+    align-items: center;
+    margin: 6px 4px;
+  }
+
+  .item-servico p {
+    padding: 4px;
+  }
+
+
+  .parceiro-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 16px 24px;
+  }
+
+  .parceiro-card {
+    width: 200px;
+    height: 100px;
+    padding: 16px;
+    margin: 16px;
+    align-items: center;
+    padding: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    
+  }
+
+  .parceiro-card img {
+    width: auto;
+    height: 48px;
+    vertical-align: middle
+  }
+
+  .parceiro-buttons-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 24px;
+  }
+
+  .button-parceiros {
+    padding: 12px;
     align-items: center;
   }
+
 
 
 
